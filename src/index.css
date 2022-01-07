@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    padding-top: 70px;
+    margin: 0;
+    min-height: 100%;
+}
+.navbar{
+    background-color: white;
+}
+#navbar-brand{
+    width:60px;
+    border-radius: 50px;
+}
+
+.menu-active{
+    font-weight:bolder;
+    
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    color: black !important;
+}
+.list-group :hover{
+    color: #3498db !important;
+}
+.carousel-inner{
+    margin-top: 3rem;
+    height: 24rem;
+    margin-bottom: 3rem;
+}
+.img-responsive{
+    width:100%;
+}
+.card-img-top{
+    width:100%;
+    height:25vw;
+    object-fit:scale-down;
+}
+.btn {
+    text-transform:uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+.card-text{
+white-space: pre;
+}
+
+#Footer{
+  position:relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 5px;
+  background:darkblue;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center */
+
+}
+#card{
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+#CardDetails:hover{
+transform: scale(1.1);
+transition: 500ms linear;
+}
+#card-products{
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.card-local{
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+.card-local:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;  
+}
+#signupform{
+    border-radius: 20px;
+    box-shadow:2px 2px ;
+}
+
+@media (min-width:576px){
+    #CardDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+       max-width: 100%;
+    }
+    .CardDetails{
+        width: auto;
+    }
+    #location{
+        margin-bottom: 5px;
+    }
+}
